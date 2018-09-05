@@ -1,3 +1,4 @@
+import { HELLO } from '@nam/utils';
 import * as React from 'react';
 import styled from 'styled-components';
 import './App.css';
@@ -9,6 +10,10 @@ const AppWrapperKEKE = styled.div``
 
 class App extends React.Component {
   public static displayName = "HELLO"
+  public componentDidMount() {
+    // tslint:disable-next-line:no-console
+    console.log(HELLO);
+  }
   public render() {
     return (
       <AppWrapperKEKE>
