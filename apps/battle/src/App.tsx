@@ -1,28 +1,15 @@
-import * as React from 'react';
-import styled from 'styled-components';
-import './App.css';
-import logo from './logo.svg';
+import * as React from "react";
+import styled from "styled-components";
+import "./App.css";
+// import logo from './logo.svg';
 
-import Com from '@nam/coms'
-
-const AppWrapperKEKE = styled.div``
+const AppWrapperKEKE = styled.div``;
 
 class App extends React.Component {
-  static displayName = "HELLO"
-
   render() {
     return (
       <AppWrapperKEKE>
-        <div className="App">
-          <header className="App-header">
-            <img src={logo} className="App-logo" alt="logo" />
-            <h1 className="App-title">Welcome to React - BATTLE</h1>
-          </header>
-          <p className="App-intro">
-            To get started, edit <code>src/App.tsx</code> and save to reload.
-        </p>
-          <Com />
-        </div>
+        <p>Hello</p>
       </AppWrapperKEKE>
     );
   }

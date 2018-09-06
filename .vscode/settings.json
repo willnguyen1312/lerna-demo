@@ -2,5 +2,6 @@
     "typescript.validate.enable": true,
     "tslint.autoFixOnSave": true,
     "tslint.enable": true,
-    "eslint.enable": false
+    "eslint.enable": false,
+    "editor.formatOnSave": true
 }

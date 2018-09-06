@@ -2,8 +2,14 @@
   "name": "lerna-demo",
   "private": true,
   "version": "1.0.0",
-  "main": "index.js",
   "author": "Nam Nguyen <nam.quoine@gmail.com>",
+  "scripts": {
+    "start:home": "lerna run start --scope @nam/home",
+    "start:battle": "lerna run start --scope @nam/battle",
+    "build:home": "lerna run build --scope @nam/battle",
+    "build:battle": "lerna run build --scope @nam/battle",
+    "test:all": "lerna run test"
+  },
   "license": "MIT",
   "devDependencies": {
     "lerna": "^3.2.1"
