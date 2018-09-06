@@ -11,7 +11,6 @@ const AppWrapperKEKE = styled.div``
 class App extends React.Component {
   public static displayName = "HELLO"
   public componentDidMount() {
-    // tslint:disable-next-line:no-console
     console.log(HI);
   }
   public render() {

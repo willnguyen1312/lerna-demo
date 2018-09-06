@@ -3,13 +3,14 @@ import styled from 'styled-components';
 import './App.css';
 import logo from './logo.svg';
 
+import Com from '@nam/coms'
 
 const AppWrapperKEKE = styled.div``
 
-
 class App extends React.Component {
-  public static displayName = "HELLO"
-  public render() {
+  static displayName = "HELLO"
+
+  render() {
     return (
       <AppWrapperKEKE>
         <div className="App">
@@ -20,6 +21,7 @@ class App extends React.Component {
           <p className="App-intro">
             To get started, edit <code>src/App.tsx</code> and save to reload.
         </p>
+          <Com />
         </div>
       </AppWrapperKEKE>
     );

@@ -1,5 +1,6 @@
 {
     "typescript.validate.enable": true,
     "tslint.autoFixOnSave": true,
-    "tslint.enable": true
+    "tslint.enable": true,
+    "eslint.enable": false
 }
